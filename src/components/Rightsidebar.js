@@ -11,7 +11,10 @@ const Rightsidebar1 = () => {
     <div className="rightsidebar ">
       <div className="d-flex flex-column">
         <div className="d-flex flex-column">
-          <Rightknee1 />
+          <div className="pb-2">
+           <Rightknee1 />  
+          </div>
+         
 
           <div className="d-flex flex-column gap-3 ">
             <div>

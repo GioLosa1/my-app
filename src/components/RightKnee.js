@@ -6,7 +6,7 @@ function Rightknee1() {
   return (
     
     <Card>
-      <Card.Body>
+      <Card.Body className="d-flex flex-column justify-content-start align-items-start">
         <div>
           <h2>Right knee</h2>
         </div>
