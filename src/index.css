@@ -305,7 +305,31 @@ a {
   justify-content: space-between;
 
 }
+@media only screen and (max-width: 1420px) {
 
+  .col {
+    display: none;
+  }
+  .Clock-box {
+    display: none;
+  }
+
+  .side-container {
+    visibility: hidden;
+  }
+  .side-item {
+    visibility: hidden;
+  }
+  .side-item-p {
+    visibility: hidden;
+  }
+  .start-logo {
+    display: block !important;
+  }
+  .time-div {
+    visibility: hidden !important;
+  }
+}
 
 @media only screen and (max-width: 1129px) {
   .col {
@@ -329,9 +353,9 @@ a {
   }
   .row {
     display: flex !important;
-    justify-content: space-between;
+    
     flex-direction: row;
-    gap: 100px;
+    
   }
   
   .body-items {
@@ -340,4 +364,25 @@ a {
     justify-content: center;
     align-items: center;
   }
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    
+    padding-left: -30px;
+    margin-right: 30px;
+  }
+ .diag-container {
+  padding-right: 15px;
+ }
+  .body-items {
+    width: fit-content;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+.rightsidebar {
+  padding: 10px !important;
+}
 }
