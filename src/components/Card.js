@@ -1,6 +1,6 @@
-import Card from "react-bootstrap/Card";
+import Card from "react-bootstrap";
 import React, { useState } from "react";
-import { CardGroup, CardImg, CardImgOverlay, CardText } from "react-bootstrap";
+
 
 function Card1() {
   const cardinfo = [
