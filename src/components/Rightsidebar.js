@@ -1,7 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import Card1 from "./Card";
-import Plan from "./Plancards1";
+
 import Rightknee1 from "./RightKnee";
 import Doccard from "./Doctorcard";
 import Info1 from "./Info";

@@ -1,7 +1,7 @@
-import Button from "react-bootstrap/Button";
+
 import Card from "react-bootstrap/Card";
 import React from "react";
-import CardImg from "react-bootstrap";
+
 import { Cart } from "./Arrowsvg";
 
 function MedicBox1() {

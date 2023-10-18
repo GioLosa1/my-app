@@ -1,5 +1,4 @@
-import Card from "react-bootstrap/Card";
-import ListGroup from "react-bootstrap/ListGroup";
+
 import React from "react";
 import { Pdficon } from "./Arrowsvg";
 function Info1() {

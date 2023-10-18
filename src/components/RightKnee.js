@@ -1,6 +1,6 @@
-import Card from "react-bootstrap/Card";
+import Card from "react-bootstrap";
 import React, { useState } from "react";
-import { CardImg, ListGroup } from "react-bootstrap";
+
 
 function Rightknee1() {
   return (

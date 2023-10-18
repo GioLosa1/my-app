@@ -1,4 +1,4 @@
-import Card from "react-bootstrap/Card";
+import Card from "react-bootstrap";
 import { Chaticon } from "./Arrowsvg";
 import React from "react";
 
