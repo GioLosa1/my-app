@@ -1,10 +1,10 @@
 
 import './App.css';
-
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./index.css";
 import Navbar from "./components/Navbar2";
-import Plancards from "./components/Plancards1";
+
 import Leftsidebar1 from "./components/Leftsidebar";
 import Rightsidebar1 from "./components/Rightsidebar";
 import Manbody1 from "./components/Manbody";

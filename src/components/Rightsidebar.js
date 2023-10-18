@@ -1,5 +1,5 @@
 import React from "react";
-
+import "bootstrap/dist/css/bootstrap.css";
 
 import Rightknee1 from "./RightKnee";
 import Doccard from "./Doctorcard";
