@@ -1,5 +1,4 @@
-
-import './App.css';
+import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./index.css";
@@ -19,17 +18,20 @@ function App() {
 
         <div className="body-items ">
           
-            <Leftsidebar1 />
+            <div className="d-flex">
+              <Leftsidebar1 />
+            </div>
 
             <div className="manbody-img">
               <Manbody1 />
             </div>
-
-            <Rightsidebar1 />
+            <div className="d-flex">
+              <Rightsidebar1 />
+            </div>
           </div>
         </div>
       </div>
-    
+   
   );
 }
 
