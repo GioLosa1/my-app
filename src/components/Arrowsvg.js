@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "bootstrap/dist/css/bootstrap.css";
+
 
 export const LeftArrow = () => {
   return (

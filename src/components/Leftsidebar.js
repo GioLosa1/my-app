@@ -1,5 +1,5 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.css";
+
 import Card1 from "./Card";
 import Plan from "./Plancards1";
 import Labbox1 from "./Labscreen";

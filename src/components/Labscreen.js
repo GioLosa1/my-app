@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "bootstrap/dist/css/bootstrap.css";
+
 
 import Card from "react-bootstrap/Card";
 import { Warning } from "./Arrowsvg";

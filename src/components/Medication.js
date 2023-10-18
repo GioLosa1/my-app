@@ -1,5 +1,5 @@
 
-import Card from "react-bootstrap/Card";
+import Card from "react-bootstrap";
 import React from "react";
 
 import { Cart } from "./Arrowsvg";
