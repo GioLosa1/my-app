@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="App">
       <div className="whole-body">
-        <div>
+        
           <Navbar />
-        </div>
+       
 
         <div className="body-items ">
           

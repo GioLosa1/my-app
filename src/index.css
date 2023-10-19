@@ -9,6 +9,45 @@ body > #root > div {
   height: 100vh !important;
   width: 100% !important;
 }
+.row {
+  display:flex;
+}
+.toggle-div {
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 0.8rem;
+  border-color: rgb(255, 255, 255);
+  padding: 5px;
+}
+.toggle {
+  display: flex;
+  top: 0.75rem;
+  right: 0.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 6px;
+  width: 2.25rem;
+  height: 25px;
+ 
+ 
+}
+button {
+  display: none;
+}
+.row .menu-div #hidden {
+  display: flex;
+}
+.toggle span {
+  height: 0.4rem;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.2rem;
+}
+.wit {
+  width: 100%;
+}
 
 .header {
   display: flex;
@@ -29,12 +68,16 @@ body > #root > div {
   align-items: center;
   justify-content: center !important;
 }
+.menu-div {
+  display: flex;
+  align-items: center;
 
+}
 .head-comp {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 35px;
+  padding: 30px;
   background-color: white;
   border-radius: 50px;
   height: 1px;
@@ -64,16 +107,24 @@ ul {
   align-items: center;
 }
 
+.side-item-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
 .side-item {
   background-color: #ffffff;
   border-radius: 50%;
-  padding: 18px;
+  padding: 16px;
   color: #000000a8;
 }
 .side-item-p {
   background-color: #ffffff;
   border-radius: 30px;
+  padding: 5px;
 }
+
 .clock-container {
   display: flex;
   justify-content: center;
@@ -177,6 +228,11 @@ a {
 }
 .left-last {
   margin-top: 28px;
+}
+.manbody-img {
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .rightsidebar {
   padding-top: 55px !important;
@@ -305,29 +361,61 @@ a {
   justify-content: space-between;
 
 }
+
+.head-comp .item-overview #hidden {
+  display: flex;
+  width: 50px;
+  height: 50px;
+}
+.side-item-container {
+  display: flex;
+} 
+.center-side-menu {
+  display: flex;
+  flex-direction: row;
+ 
+}
+
 @media only screen and (max-width: 1420px) {
+  
+  .head-ul  {
+    display: flex;
+    flex-direction: column;
 
-  .col {
-    display: none;
   }
-  .Clock-box {
-    display: none;
+  .side-item-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
   }
-
-  .side-container {
-    visibility: hidden;
+  .center-side-menu {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #c0c0c0;
+    padding: 20px;
   }
-  .side-item {
-    visibility: hidden;
-  }
-  .side-item-p {
-    visibility: hidden;
-  }
+ 
+ 
   .start-logo {
     display: block !important;
   }
-  .time-div {
-    visibility: hidden !important;
+  
+  button {
+    display: block;
+  }
+    #hidden {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+      background-color: #c0c0c0;
+      padding: 20px;
   }
 }
 
@@ -364,6 +452,7 @@ a {
     justify-content: center;
     align-items: center;
   }
+ 
 }
 
 @media only screen and (max-width: 500px) {
