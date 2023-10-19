@@ -10,7 +10,7 @@ body > #root > div {
   width: 100% !important;
 }
 .row {
-  display:flex;
+  display: flex;
 }
 .toggle-div {
   display: flex;
@@ -30,8 +30,6 @@ body > #root > div {
   gap: 6px;
   width: 2.25rem;
   height: 25px;
- 
- 
 }
 button {
   display: none;
@@ -71,7 +69,6 @@ button {
 .menu-div {
   display: flex;
   align-items: center;
-
 }
 .head-comp {
   display: flex;
@@ -230,9 +227,9 @@ a {
   margin-top: 28px;
 }
 .manbody-img {
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .rightsidebar {
   padding-top: 55px !important;
@@ -359,7 +356,6 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
 .head-comp .item-overview #hidden {
@@ -369,19 +365,25 @@ a {
 }
 .side-item-container {
   display: flex;
-} 
+}
 .center-side-menu {
   display: flex;
   flex-direction: row;
- 
+  gap: 4rem;
+}
+.nav-link {
+  display: none !important;
+}
+.button-1 {
+
+  display: none;
 }
 
-@media only screen and (max-width: 1420px) {
-  
-  .head-ul  {
+
+@media only screen and (max-width: 1395px) {
+  .head-ul {
     display: flex;
     flex-direction: column;
-
   }
   .side-item-container {
     display: flex;
@@ -397,73 +399,69 @@ a {
     align-items: center;
     justify-content: center;
     background-color: #c0c0c0;
-    padding: 20px;
+    padding: 30px;
   }
- 
- 
+.collapse-menu {
+  display: none !important;
+}
   .start-logo {
     display: block !important;
   }
-  
+
   button {
     display: block;
   }
-    #hidden {
-      display: flex;
-      flex-direction: column-reverse;
-      gap: 20px;
-      align-items: center;
-      justify-content: center;
-      background-color: #c0c0c0;
-      padding: 20px;
+
+  .button-1 {
+    display: flex !important;
+    width: 100px;
+  }
+  .navbar {
+    width: 100%;
+
+  }
+  button {
+    display: flex !important;
+  }
+  .custom-toggler {
+    display: flex;
+  }
+  .nav-link {
+    display: flex !important;
+    gap: 50px;
   }
 }
 
-@media only screen and (max-width: 1129px) {
-  .col {
-    display: none;
-  }
-  .Clock-box {
-    display: none;
-  }
 
-  .side-container {
-    visibility: hidden;
-  }
-  .side-item {
-    visibility: hidden;
-  }
-  .side-item-p {
-    visibility: hidden;
-  }
+@media only screen and (max-width: 1129px) {
+  
   .start-logo {
     display: block !important;
   }
   .row {
     display: flex !important;
-    
+
     flex-direction: row;
-    
   }
-  
+
   .body-items {
     display: flex !important;
     flex-direction: column !important;
     justify-content: center;
     align-items: center;
   }
- 
 }
 
 @media only screen and (max-width: 500px) {
   body {
-    
     padding-left: -30px;
     margin-right: 30px;
+    display: flex;
   }
- .diag-container {
-  padding-right: 15px;
- }
+  
+  .diag-container {
+    padding-right: 15px;
+  }
   .body-items {
     width: fit-content;
     display: flex !important;
@@ -471,7 +469,8 @@ a {
     justify-content: center;
     align-items: center;
   }
-.rightsidebar {
-  padding: 10px !important;
-}
+  .rightsidebar {
+    padding: 10px !important;
+  }
+  
 }

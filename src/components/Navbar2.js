@@ -2,14 +2,18 @@ import { useState } from "react";
 import { DownArrow, Notification, Search } from "./Arrowsvg";
 import Clock from "./Clock";
 import MonthYear from "./Monthy";
-import { Button, NavbarToggle } from "react-bootstrap";
+import { Button, NavbarToggle, NavbarCollapse } from "react-bootstrap";
+import TopNav from "./navbutton";
 
-function Navbar ()  {
+function Navbar() {
   const [showLinks, setShowLinks] = useState(false);
+  const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+
+  const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
   return (
     <div className="row m-0 p-2">
       <div className="header-div d-flex flex-row justify-content-between ">
-        <div className="start-logo col p-2 px-3 d-flex flex-row justify-content-between">
+        <div className="start-logo col p-2 px-3 d-flex flex-row  justify-content-between">
           <a href="app.js">
             {" "}
             <svg
@@ -25,23 +29,18 @@ function Navbar ()  {
               <path d="M10.464 3.314a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.5a.5.5 0 0 0 0 1H4a.5.5 0 0 0 .416-.223l1.473-2.209 1.647 4.118a.5.5 0 0 0 .945-.049l1.598-5.593 1.457 3.642A.5.5 0 0 0 12 9h3.5a.5.5 0 0 0 0-1h-3.162l-1.874-4.686Z" />
             </svg>
           </a>
-          <div className="wit">
-            <p></p>
+
+          <div className="button-nav">
+            <TopNav />
           </div>
-          <button onClick={() => setShowLinks(showLinks)}>
-            <div className="toggle-div">
-              <div className="toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-            </div>{" "}
-          </button>
         </div>
         {/* end logo */}
 
         {/* center menu */}
-        <div className="center-side-menu" id={showLinks ? "hidden" : ""}>
+        <div
+          className="center-side-menu collapse-menu"
+          id={showLinks ? "hidden" : ""}
+        >
           <div className="menu-div col p-0 " href="#home">
             <ul className="head-ul p-0 gap-3 ">
               <a href="">
@@ -135,6 +134,6 @@ function Navbar ()  {
       {/* start logo */}
     </div>
   );
-};
+}
 
 export default Navbar;
