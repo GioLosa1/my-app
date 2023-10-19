@@ -375,11 +375,14 @@ a {
   display: none !important;
 }
 .button-1 {
-
   display: none;
 }
-
-
+.allr {
+  color: rgb(99, 163, 178) !important;
+}
+.fullt {
+  color: rgb(99, 163, 178) !important;
+}
 @media only screen and (max-width: 1395px) {
   .head-ul {
     display: flex;
@@ -401,9 +404,9 @@ a {
     background-color: #c0c0c0;
     padding: 30px;
   }
-.collapse-menu {
-  display: none !important;
-}
+  .collapse-menu {
+    display: none !important;
+  }
   .start-logo {
     display: block !important;
   }
@@ -418,7 +421,6 @@ a {
   }
   .navbar {
     width: 100%;
-
   }
   button {
     display: flex !important;
@@ -432,9 +434,7 @@ a {
   }
 }
 
-
 @media only screen and (max-width: 1129px) {
-  
   .start-logo {
     display: block !important;
   }
@@ -454,12 +454,9 @@ a {
 
 @media only screen and (max-width: 500px) {
   body {
-   
-    
     display: flex;
-    
   }
-  
+
   .diag-container {
     padding-right: 15px;
   }
@@ -473,13 +470,9 @@ a {
   .rightsidebar {
     padding: 10px !important;
   }
-  
 }
 @media only screen and (max-width: 320px) {
   body {
-   
-    
     display: flex;
-    
   }
 }

@@ -75,7 +75,7 @@ function Card1() {
     <div>
       <div className="d-flex justify-content-between p-2 align-items-center">
         <h3>Diagnostic results</h3>
-        <a style={{ textDecoration: "none" }} href="All resuls">
+        <a className="allr" style={{  color:"rgb(99, 163, 178)"  }} href="All resuls">
           All results &gt;{" "}
         </a>
       </div>

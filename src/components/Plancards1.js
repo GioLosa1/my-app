@@ -107,7 +107,7 @@ function Plan() {
             <div className="d-flex justify-content-between p-2 align-items-center ">
               <h3>Treatment plan</h3>
 
-              <a style={{ textDecoration: "none" }} href="All resuldsas">
+              <a className="fullt" style={{ color:"rgb(99, 163, 178)"  }} href="All resuldsas">
                 Full treatment plan &gt;{" "}
               </a>
             </div>
