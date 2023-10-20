@@ -383,6 +383,9 @@ a {
 .fullt {
   color: rgb(99, 163, 178) !important;
 }
+.buym {
+  color: rgb(99, 163, 178) !important;
+}
 @media only screen and (max-width: 1395px) {
   .head-ul {
     display: flex;

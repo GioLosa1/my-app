@@ -10,9 +10,9 @@ function MedicBox1() {
       <div className="d-flex justify-content-between p-2 align-items-center ">
         <h3>Medication</h3>
 
-        <a style={{ textDecoration: "none" }} href="All resuldsas">
+        <a className="buym" style={{  color:"rgb(99, 163, 178)"  }} href="All resuldsas">
           Buy meds (6) &gt;{" "}
-        </a>
+        </a> 
       </div>
 
       <div className="med-container">
