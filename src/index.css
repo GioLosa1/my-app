@@ -386,6 +386,19 @@ a {
 .buym {
   color: rgb(99, 163, 178) !important;
 }
+
+.start-logo-flexs {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.rounded {
+  display: flex !important;
+  justify-content: end !important;
+  align-items: end !important;
+}
+
+
 @media only screen and (max-width: 1395px) {
   .head-ul {
     display: flex;
@@ -398,14 +411,18 @@ a {
     align-items: start;
     gap: 20px;
   }
+ 
+  
   .center-side-menu {
+    
     display: flex;
     flex-direction: column-reverse;
     gap: 20px;
     align-items: center;
     justify-content: center;
-    background-color: #c0c0c0;
+    background-color: #e6e6e6b7;
     padding: 30px;
+    border-radius: 2rem;
   }
   .collapse-menu {
     display: none !important;
@@ -431,9 +448,12 @@ a {
   .custom-toggler {
     display: flex;
   }
+  .navbar-collapse {
+    width: fit-content;
+  }
   .nav-link {
-    display: flex !important;
-    gap: 50px;
+    display: block !important;
+    gap: 10px;
   }
 }
 
@@ -452,7 +472,7 @@ a {
     flex-direction: column !important;
     justify-content: center;
     align-items: center;
-  }
+  }  
 }
 
 @media only screen and (max-width: 500px) {
@@ -478,4 +498,5 @@ a {
   body {
     display: flex;
   }
+
 }

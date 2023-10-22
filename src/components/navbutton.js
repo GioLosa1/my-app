@@ -10,9 +10,9 @@ const TopNav = (props) => {
   const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
   return (
-    <nav className="navbar navbar-expand-xxl navbar-light  rounded">
-      <button
-        className="custom-toggler navbar-toggler"
+    <nav className="navbar navbar-expand-xxl navbar-light  rounded ">
+      <button 
+        className="custom-toggler navbar-toggler "
         type="button"
         data-toggle="collapse"
         data-target="#navbarsExample09"
@@ -21,7 +21,7 @@ const TopNav = (props) => {
         aria-label="Toggle navigation"
         onClick={handleNavCollapse}
       >
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon "></span>
       </button>
 
       <div

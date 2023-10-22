@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <div className="row m-0 p-2">
       <div className="header-div d-flex flex-row justify-content-between ">
-        <div className="start-logo col p-2 px-3 d-flex flex-row  justify-content-between">
+        <div className="start-logo start-logo-flexs col p-2 px-3 d-flex flex-row  justify-content-between">
           <a href="app.js">
             {" "}
             <svg
@@ -30,10 +30,10 @@ function Navbar() {
             </svg>
           </a>
 
-          <div className="button-nav">
+          
+        </div><div className="button-nav">
             <TopNav />
           </div>
-        </div>
         {/* end logo */}
 
         {/* center menu */}
