@@ -472,6 +472,7 @@ a {
     flex-direction: column !important;
     justify-content: center;
     align-items: center;
+    padding-bottom: 30px;
   }  
 }
 
@@ -492,6 +493,9 @@ a {
   }
   .rightsidebar {
     padding: 10px !important;
+  }
+  .start-logo {
+    padding-left: 0 !important;
   }
 }
 @media only screen and (max-width: 320px) {
